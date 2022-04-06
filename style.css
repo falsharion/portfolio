@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+body{
+    font-family: 'Quintessential', cursive;
+}
+header{
+    background-color: #4c0c47;
+    text-align: center;
+    color: #ffffff;
+    padding: 8px 0px 8px 0px;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.txtspace{
+    padding: 0px 24px 0px 24px;
+}
+.center{
+    background-color: #4c0c5c;
+    display: flex;
+    height: 80vh;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 210px;
+    height: 232px;
+    border-radius: 50%;
+}
+.center h4{
+    color: #ffffff;
+    padding: 20px 0px 20px 3px;
+}
+.about_me{
+    background-color: #ffffff;
+    width: 100%;
+}
+h3{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px 20px 7px 3px;
+}
+.white{
+    color:#ffffff;
+    padding-right: 14px;
+}
+.section1 p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.style{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.skills p{
+    padding: 3px 35px 8px 35px;
+    background-color: #f1f1f1;
+}
+.projectst{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.projects{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    justify-content: space-around;
+    gap:20px;
+}
+.projects a{
+    text-decoration: none;
+    color: #000000;
+}
+.projects a:hover{
+    text-decoration: none;
+    color:  #4c0c47;
+}
+footer{
+    margin-top: 40px;
+    background-color: #4c0c5c;
+    width: 100%;
+    height:15rem;
+    color: #f1f1f1;
+    text-align: center;
+}
+footer h2{
+    text-transform: capitalize;
+    padding:15px;   
+}
+
+.contact_section {
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 28px 28px auto 20px;
+    justify-content: center;
+    gap: 7px;
+}
+.contact_section input{
+    padding:10px;
+}
+.name p{
+    padding-top: 9px;
+}
+@media screen and (min-width:300px)and (max-width:575px){
+.contact_section{
+    grid-template-columns: 297px;
+}
+.skills p{
+    padding: 7px 23px 8px 23px;
+}
+}
