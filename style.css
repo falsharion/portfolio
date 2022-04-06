@@ -120,6 +120,7 @@ footer h2{
 }
 button{
     background-color: #ffffff;
+    color: #000000;
 }
 @media screen and (min-width:300px)and (max-width:575px){
 .contact_section{
