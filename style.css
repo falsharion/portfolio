@@ -44,7 +44,7 @@ img {
 h3{
     text-transform: capitalize;
     text-align: center;
-    padding: 20px 20px 7px 3px;
+    padding: 25px 20px 7px 3px;
 }
 .white{
     color:#ffffff;
@@ -113,9 +113,13 @@ footer h2{
 }
 .contact_section input{
     padding:10px;
+    border-radius: 5px
 }
 .name p{
     padding-top: 9px;
+}
+button{
+    background-color: #ffffff;
 }
 @media screen and (min-width:300px)and (max-width:575px){
 .contact_section{
